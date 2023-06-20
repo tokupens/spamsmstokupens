@@ -10,28 +10,27 @@ class Main:
 		
 		;       S P A M  S M S      ;
 		
-		;   Author : TOKUPENSSS COY ;   
-	
+		;    Buatan Tokupenscoyy    ;
+		
 
-PENTING CUYY! TOOL INI WORK UNTUK WARGA INDO YGY
-
+PENTING! TOOL INI BISA DIGUNAKAN UNTUK WARGA INDO YE NGAB KWKWK
 1. SMS Gratis
-2. OTP hengker epep
-3. OTP hengker emel
-4. OTP hengker pubege
-5. OTP hengker ceoce
+2. OTP Matahari
+3. OTP Hallodok
+4. OTP Olx.co.id
+5. OTP Sociolla.com
 """)
-		pilih=int(input('noobie/> '))
+		pilih=int(input('tokupens/> '))
 		if pilih == 1:
 			import src.payu
 		elif pilih == 2:
-			import src.hengker epep
+			import src.matahari
 		elif pilih == 3:
-			import src.hengker emel
+			import src.alodok
 		elif pilih == 4:
-			import src.hengker pubege
+			import src.olx
 		elif pilih == 5:
-			import src.hengker ceoce
+			import src.socil
 		else: print("[!] lihat menu dong(o)");self.menu()
 
 	def detekos(self):
